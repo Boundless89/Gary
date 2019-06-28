@@ -1,0 +1,28 @@
+const embed = {
+  "thumbnail": {
+    "url": "https://res.cloudinary.com/teepublic/image/private/s--HYGaiPUu--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1504561465/production/designs/1873028_1.jpg"
+  },
+  "author": {
+    "name": "Welcome to The Red Legions of Gary",
+    "icon_url": ""
+  },
+  "fields": [
+    {
+      "name": "1️⃣ Be Respectful",
+      "value": "Any racial, political, religious, anti-LGBT, or anything deemed innapropriate is not tolerated here."
+    },
+    {
+      "name": "2️⃣ No Elitism",
+      "value": "Having different pixels on your screen doesn't make you better than your fellow Guardians."
+    },
+    {
+      "name": "3️⃣ No Explicit Sexual Content",
+      "value": "Do not post links/images/videos/GIFs for porn or explicit sexual content."
+    },
+    {
+      "name": "3️⃣ Above all else; Don't Be a Dick",
+      "value": "Just be cool and have fun, and remember: **Eyes Up Guardian**."
+    }
+  ]
+};
+channel.send({ embed });
